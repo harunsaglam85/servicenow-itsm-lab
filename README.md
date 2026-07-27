@@ -1,31 +1,3 @@
-# servicenow-itsm-lab
-ServiceNow ITSM incident management demonstration - developer instance
-# ServiceNow ITSM Lab
-
-Hands-on incident management demonstration using a ServiceNow Personal Developer Instance (Zurich release).
-
-## Overview
-
-ServiceNow is the industry-standard IT Service Management (ITSM) platform used by the majority of enterprise IT departments for ticketing, incident management, and service delivery. This project demonstrates a complete incident lifecycle from creation through resolution, showing practical familiarity with the tool most commonly requested in IT support and help desk job postings.
-
-## Environment
-
-| Component | Details |
-|-----------|---------|
-| Platform | ServiceNow Personal Developer Instance |
-| Release | Zurich |
-| Role | Admin |
-| Instance | dev210377.service-now.com |
-
-## What I Demonstrated
-
-- Provisioned a personal ServiceNow developer instance
-- Created a new incident ticket with full categorization (Category, Impact, Urgency, Priority)
-- Assigned caller information and detailed problem description
-- Added work notes documenting the troubleshooting process
-- Resolved the incident with resolution code and resolution notes
-- Reviewed the complete audit trail showing every field change and timestamp
-
 ## Walkthrough
 
 ### 1. Instance Provisioned
@@ -43,15 +15,12 @@ Created a new incident ticket (INC0010002) reporting a VPN connectivity issue. F
 
 The new incident appears in the active incident queue, ready for assignment and triage — the same view a help desk team uses to manage their workload.
 
-### 4. Resolution and Audit Trail
+### 4. Resolution Information
 ![Resolution Info](screenshots/04-resolution-info.png)
 
-Documented the troubleshooting steps taken (verified VPN client version, reset credentials, confirmed successful authentication) as work notes, then resolved the ticket with a resolution code and resolution notes. The activity timeline shows a complete audit trail — every field change and note timestamped automatically, demonstrating the accountability and documentation standards required in enterprise IT support.
+Documented the troubleshooting steps taken (verified VPN client version, reset credentials, confirmed successful authentication) as work notes, then resolved the ticket with a resolution code of "Resolved by request" and detailed resolution notes.
 
-## Skills Demonstrated
+### 5. Complete Audit Trail
+![Resolution Workflow](screenshots/05-resolution-workflow.png)
 
-- ServiceNow incident management workflow
-- ITSM ticket lifecycle: creation, categorization, prioritization, resolution
-- Technical documentation and work note best practices
-- Understanding of incident state transitions and resolution codes
-- Familiarity with enterprise ticketing tools referenced across IT support job postings
+The activity timeline shows a complete audit trail — every field change and work note timestamped automatically, from initial creation through final resolution, demonstrating the accountability and documentation standards required in enterprise IT support.
