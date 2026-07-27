@@ -44,7 +44,7 @@ Created a new incident ticket (INC0010002) reporting a VPN connectivity issue. F
 The new incident appears in the active incident queue, ready for assignment and triage — the same view a help desk team uses to manage their workload.
 
 ### 4. Resolution and Audit Trail
-![Resolution Workflow](screenshots/04-resolution-workflow.png)
+![Resolution Info](screenshots/04-resolution-info.png)
 
 Documented the troubleshooting steps taken (verified VPN client version, reset credentials, confirmed successful authentication) as work notes, then resolved the ticket with a resolution code and resolution notes. The activity timeline shows a complete audit trail — every field change and note timestamped automatically, demonstrating the accountability and documentation standards required in enterprise IT support.
 
